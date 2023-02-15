@@ -88,6 +88,9 @@ body{
 	color:white;
 	
 }
+.domain input{
+
+}
 
 .search{
 	margin-left: 12%;
@@ -99,8 +102,10 @@ body{
 }
 .price p{
 	padding-left: 30%;
-	border: 1px solid grey;
+	/*border: 1px solid grey;*/
 	text-align: center;
+	margin-right: 5%;
+	margin-top: 4%;
 }
 .price span{
 	color: grey;
@@ -116,6 +121,7 @@ body{
 h2{
 	margin-left: 12%;
 	margin-top: 5%;
+
 }
 
 .sec3{
@@ -180,44 +186,63 @@ h2{
 	border:none;
 	padding: 3% 5%;
 }
-.features{
-	background-color: rgba(239, 239, 239, 0.6);
-	
-}
 .sec4{
-	display: flex;
-	margin-top: 2%;
-	padding: 1%;
-	
-	
-}
-.sec4 img{
-	
-	vertical-align: middle;
-}
-.builder{
-	padding: 3%;
-	
-	margin-left: 10%;
-}
-.builder img{
-	vertical-align: middle;
-}
-.tools{
-	padding: 3%;
-	margin-right: 10%;
-}
-.square{
-	background-color: rgba(0, 0, 0, 0.3);
-	padding:5% 8%;
-	width: 10%;
-	margin-right: 4%;
+			background-color: black;
+			color: white;
+			padding:4%  10%;
+			margin-top: 3%;
+		}
+		
 
-}
-.included{
-	background-color:rgba(239, 239, 239, 0.6);
-	padding: ;
-}
+		.sec4>p{
+			color: grey;
+			margin-top: 2%;
+			margin-left: 5%;
+		}
+		
+		.sec4>div{
+			display: flex;
+			padding-top: 2%;
+			padding: 5%;
+			margin-left: 3%;
+		}
+		.umbrella {
+			display: flex;
+			line-height: 1.5;
+			margin:4% 0%;
+		}
+		.umbrella i{
+			font-size: 1.7rem;
+			border: 1px solid grey;
+			text-align: center;
+			border-radius: 50%;
+			width: 15%;
+			padding:5% 5%;
+			margin-top: 7%;
+			margin-right: 5%;
+		}
+		.orange i{
+			color:orange;
+			border-color: orange;
+			
+		}
+		.orange span:first-of-type{
+			color: orange;
+		}
+		.umbrella span{
+			font-size: 1rem;
+		}
+		.sec4-grand-div2{
+			width: 30%;
+			background-color: grey;
+			margin-top: 0% 2%;
+		}
+		.feature1{
+			margin-right: 5%;
+		}
+		.feature2{
+			margin-left: 5%;
+		}
 
 .sec5	{
 	display: flex;
@@ -254,40 +279,324 @@ h2{
 	border:none;
 	padding: 3% 5%;
 }
-.included{
-	background-color:rgba(239, 239, 239, 0.6) ;
-}
+
 .sec6{
-	display: flex;
-	
+	background-color:rgba(239, 239, 239, 0.6) ;
+	padding:4%  8%;
 	margin-top: 3%;
 
 }
-.hosting{
-	
-	padding: 0% 10%;
-	text-align: center;
+.sec6>h2{
+			margin-top: 1%;
+			margin-left: 5%;
+			margin-bottom: 1%;
+
 }
-.hosting p{
-	
+.sec6>p{
+			color: grey;
+			
+			margin-left: 5%;
+		}
+.sec6>div{
+	display: flex;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+.hosting {
+	display: flex;
+	text-align: center;
+	background-color: white;
+
+	margin-right: 1%;
+}
+.hostingsquare{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 30%;
+	padding:25% 15%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+
+}
+.hosting button{
+	background-color: white;
+	color: orange;
+	text-align: center;
+	border-radius: 25px;
+	width: fit-content;
+	cursor: pointer;
+	margin-top: 8%;
+	border:1px solid orange;
+	padding: 3% 5%;
 }
 .website{
-	
-
-	line-height: 2;
+	display: flex;
+	text-align: center;
+	background-color: black;
+	padding-bottom: 5%;
+	color: white;
+	margin-right: 1%;
 }
-.website p{
+.websitesquare{
+	background-color: grey;
+	width: 30%;
+	padding:25% 15%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 
-	padding:8% 10%;
+}
+.website button{
+	background-color:orange;
+	color: white;
+	text-align: center;
+	border-radius: 25px;
+	width: fit-content;
+	cursor: pointer;
+	margin-top: 8%;
+	border:none	;
+	padding: 3% 5%;
 }
 .servers{
+	display: flex;
+	text-align: center;
 	background-color: white;
-	line-height: 2;
+	padding-bottom: 5%;
+	margin-right: 1%;
 }
+.serversquare{
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 30%;
+	padding:25% 15%;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+.servers button{
+	background-color: white;
+	color: orange;
+	text-align: center;
+	border-radius: 25px;
+	width: fit-content;
+	cursor: pointer;
+	margin-top: 8%;
+	border:1px solid orange;
+	padding: 3% 5%;
+}
+.sec7{
+	display: flex;
+	margin-top: 3%;
+}
+.site1{
+	display: flex;
+	background-color: grey;
+	padding:5% 12%;
+
 	
 }
-@media(min-width:1366px){
-	#company-name+a{
-		margin-left: 12%;
-	}
+.site1>div{
+	line-height: 1.5;
+	margin-top: 10%;
+}
+.shapes2{
+	width: 20%;
+	position: relative;
+}
+ .square1{
+ 	background-color: rgba(0, 0, 0, 0.3);
+	padding:20% 8%;
+	width: 70%;
+ }
+ .small-circlesec7{
+	position: absolute;
 	
+	left: 65%;
+	width: 6%;
+	padding: 2.5% 2%;
+	border-radius:50%;
+	background-color: black;
+	color: grey;
+	text-align: center;
+ }
+ .site2>div{
+	line-height: 1.5;
+}
+ .site2{
+ 	display: flex;
+	background-color: lightgray;
+	padding:5% 12%;
+}
+.sec8{
+			
+			padding:4% 14%;
+			
+		}
+		.sec8>h2{
+			margin-top: 1%;
+			margin-left: 5%;
+			margin-bottom: 1%;
+
+}
+.sec8>p{
+			color: grey;
+			
+			margin-left: 5%;
+		}
+		.sec8>p{
+			color: grey;
+			margin-top: 2%;
+			margin-bottom: 1%;
+		}
+		.sec8>div{
+			display: flex;
+			margin-left: 8%;
+		}
+		
+		.rocket{
+			display: flex;
+			line-height: 1.5;
+			margin:4% 0%;
+			padding-top: 5%;
+		}
+		.rocket i{
+			font-size: 1.7rem;
+			border: 1px solid grey;
+			text-align: center;
+			border-radius: 50%;
+			width: 15%;
+			padding: 4%;
+			margin-top: 5%;
+			margin-right: 6%;
+		}
+		.sec8-grand-div1{
+			margin-left: 15%;
+			
+		}
+		.orange i{
+			color:orange;
+			border-color: orange;
+		}
+		.orange span:first-of-type{
+			color: orange;
+		}
+		.rocket span{
+			font-size: 1rem;
+		}
+		.sec10{
+			display: flex;
+			justify-content: center;
+			padding: 3%;
+			margin-left: 5%;
+
+		}
+		.shape{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	        padding:3%;
+			width: 15%;
+			margin-right: 1%;
+		}
+		.sec11{
+			display: flex;
+			background-color: black;
+			color: grey;
+			padding-top: 4%;
+			padding-bottom: 4%;
+		}
+		.sec11 h2{
+			color: white;
+			margin-bottom: 10%;
+
+		}
+		.about{
+			margin-left: 13%;
+			line-height: 1.5;
+		}
+		.about input{
+			padding-top: 7%;
+			margin-top: 25%;
+		}
+		.about .submit{
+			background-color: orange;
+			color: white;
+		}
+		.products{
+			margin-left: 13%;
+			line-height: 1.5;
+		}
+		.need{
+			margin-left: 13%;
+			line-height: 1.5;
+		}
+		.sec12{
+			display: flex;
+		}
+		.accept{
+			display: flex;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			margin-left: 13%;
+		}
+		.shapes{
+			display: flex;
+			margin-left: 2%;
+		}
+		.shape1{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	      	 padding:100%;
+			width: 15%;
+			
+			border: 1px solid black;
+		}
+		.shape2{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	        padding:100%;
+			width: 100%;
+			margin-right: 1%;
+			border: 1px solid black;
+		}
+		.shape3{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	        padding:3%;
+			width: 15%;
+			margin-right: 1%;
+			border: 1px solid black;
+		}
+		.shape4{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	        padding:3%;
+			width: 15%;
+			margin-right: 1%;
+			border: 1px solid black;
+		}
+		.shape5{
+			background-color:rgba(0, 0, 0, 0.3) ;
+	        padding:3%;
+			width: 15%;
+			margin-right: 1%;
+			border: 1px solid black;
+		}
+		.award{
+			display: flex;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			margin-left: 15%;
+		}
+		.live{
+			margin-top: 2%;
+			margin-bottom: 2%;
+			margin-left: 15%;
+			
+			background-color: green;
+			color: white;
+		}
+		.sec13{
+			display: flex;
+			margin-left: 13%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+		}
+		.media{
+			margin-left: 13%;
+		}
